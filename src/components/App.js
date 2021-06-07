@@ -3,9 +3,10 @@ import {Component} from 'react';
 import youtube from './apis/youtube';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
+import RenderIframe from './RenderIframe';
 
 class App extends Component {
-  state = {videos: []};
+  state = {videos: [], selectedVideo: null};
 
   onTermSearch = async (term) => {
 	const response = await youtube.get('/search', {
@@ -13,14 +14,17 @@ class App extends Component {
 		q: term,
 	  }
 	});
-	console.log(response.data.items);
-	this.setState({videos: response.data.items});
+	this.setState({
+	  videos: response.data.items,
+	  selectedVideo: response.data.items[0]
+	});
   };
 
   render() {
 	return (
 		<div className="ui container">
 		  <SearchBar onSubmitProps={this.onTermSearch}/>
+		  <RenderIframe selectedVideo={this.state.selectedVideo}/>
 		  <VideoList videos={this.state.videos}/>
 		</div>
 	);
