@@ -2,6 +2,7 @@ import React from 'react';
 import {Component} from 'react';
 import youtube from './apis/youtube';
 import SearchBar from './SearchBar';
+import VideoList from './VideoList';
 
 class App extends Component {
   state = {videos: []};
@@ -20,6 +21,7 @@ class App extends Component {
 	return (
 		<div className="ui container">
 		  <SearchBar onSubmitProps={this.onTermSearch}/>
+		  <VideoList videos={this.state.videos}/>
 		</div>
 	);
   }
