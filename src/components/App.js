@@ -9,6 +9,10 @@ import RenderIframe from './RenderIframe';
 class App extends Component {
 	state = {videos: [], selectedVideo: null};
 
+	async componentDidMount() {
+		await this.onTermSearch('charizard');
+	}
+
 	onTermSearch = async (term) => {
 		const response = await youtube.get('/search', {
 			params: {

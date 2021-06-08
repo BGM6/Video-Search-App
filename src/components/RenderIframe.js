@@ -1,8 +1,9 @@
 import React from 'react';
+import Loader from './Loader';
 
 const RenderIframe = ({selectedVideo}) => {
   if(!selectedVideo) {
-    return <div>Loading...</div>
+    return <Loader/>
   }
   const videoSrc = `https://www.youtube.com/embed/${selectedVideo.id.videoId}`;
 

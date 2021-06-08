@@ -16,11 +16,12 @@ class SearchBar extends Component {
 
   render() {
 	return (
-		<div>
+		<div >
 		  <form className="ui form" onSubmit={this.onFormSubmit}>
 			<div className="field">
-			  <label htmlFor="search-bar">Video Search</label>
+			  <label htmlFor="search-bar"/>
 			  <input
+					placeholder="Search Videos..."
 				  type="text"
 				  value={this.state.term}
 				  onChange={this.onInputChange}
