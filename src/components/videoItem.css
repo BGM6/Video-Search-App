@@ -1,7 +1,10 @@
 .video-item {
-    display: flex !important;
     align-items: center !important;
+    background-color: #fff;
+    display: flex !important;
     cursor: pointer;
+    margin: 0.5rem;
+
 }
 
 .video-item.item img {

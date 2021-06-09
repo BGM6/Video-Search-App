@@ -5,6 +5,8 @@ import youtube from './apis/youtube';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import RenderIframe from './RenderIframe';
+import Fotter from './Footer';
+import Footer from './Footer';
 
 class App extends Component {
 	state = {videos: [], selectedVideo: null};
@@ -44,6 +46,7 @@ class App extends Component {
 						</div>
 					</div>
 				</div>
+				<Footer/>
 			</div>
 		);
 	}
