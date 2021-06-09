@@ -3,10 +3,14 @@
     background-color: #fff;
     display: flex !important;
     cursor: pointer;
-    margin: 0.5rem;
+    margin: 0.8rem;
 
 }
 
 .video-item.item img {
     max-width: 180px;
+}
+
+.video-item.item:hover  {
+    transform: scale(1.1);
 }
