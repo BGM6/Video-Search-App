@@ -14,11 +14,15 @@
 
 }
 
+.footer p {
+    color: #fff;
+}
+
 .footer a i {
-    margin: 5px;
-    color: mediumpurple;
+    margin: 3px;
+    color: #fff
 }
 
 .footer a i:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }

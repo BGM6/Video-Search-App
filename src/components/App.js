@@ -5,14 +5,13 @@ import youtube from './apis/youtube';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import RenderIframe from './RenderIframe';
-import Fotter from './Footer';
 import Footer from './Footer';
 
 class App extends Component {
 	state = {videos: [], selectedVideo: null};
 
 	async componentDidMount() {
-		await this.onTermSearch('charizard');
+		await this.onTermSearch('react crash course');
 	}
 
 	onTermSearch = async (term) => {

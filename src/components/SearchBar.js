@@ -21,6 +21,7 @@ class SearchBar extends Component {
 			<div className="field">
 			  <label htmlFor="search-bar"/>
 			  <input
+					style={{height: '4rem', fontSize: '2rem'}}
 					placeholder="Search Videos..."
 				  type="text"
 				  value={this.state.term}
