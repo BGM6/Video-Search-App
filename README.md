@@ -4,19 +4,25 @@ This was a great way for me to learn how state, props and class components work 
     
 # Possible Features to implement in the future
 
-#Authenication
+Authenication
 
-#Create a backend using MongoDB
+Create a backend using MongoDB
 
-#Give the users the ability to create an account and be able to save  their favorite videos 
+Give the users the ability to create an account and be able to save  their favorite videos 
 
 
 URL: https://festive-davinci-0011c3.netlify.app/
 
-    # Technology
-    Javascript, React, Node.js, Semantic-Ui, axios, fontAwesome, create-react-app
+    #Technology
+    Javascript
+    React
+    Node.js
+    Semantic-Ui
+    axios
+    fontAwesome
+    create-react-app
     
-    # Author 
+    #Author 
     Bryan Guilas
     
 **bgm6**
