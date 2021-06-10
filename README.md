@@ -25,6 +25,8 @@ Give user the ability to create an account and be able to save, delete, update  
     
     #Author 
     Bryan Guilas
+    
+    ![alt text](/screenShot/notTakerScreenShot.png "HTML Screenshot")
         
 Email: bryanJguilas@gmail.com
     
