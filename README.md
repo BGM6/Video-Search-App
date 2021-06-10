@@ -14,13 +14,14 @@ Create a back-end using MongoDB
 Give user the ability to create an account and be able to save, delete, update  their list of favorited videos
 
     #Technology
-    Javascript
     React
+    Javascript
+    HTML5
+    CSS3
     Node.js
     Semantic-Ui
-    axios
-    fontAwesome
-    create-react-app
+    Axios
+    FontAwesome
     
     #Author 
     Bryan Guilas
