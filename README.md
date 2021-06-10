@@ -24,9 +24,7 @@ Give user the ability to create an account and be able to save, delete, update  
     
     #Author 
     Bryan Guilas
-    
-**bgm6**
-    
+        
 Email: bryanJguilas@gmail.com
     
 GitHub: https://github.com/BGM6
