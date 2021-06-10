@@ -7,9 +7,9 @@ This was a great way for me to learn how state, props and class components work 
 
 Authenication
 
-Create a backend using MongoDB
+Create a back-end using MongoDB
 
-Give the users the ability to create an account and be able to save  their favorite videos 
+Give user the ability to create an account and be able to save, delete, update  their list of favorited videos
 
     #Technology
     Javascript
@@ -20,7 +20,7 @@ Give the users the ability to create an account and be able to save  their favor
     fontAwesome
     create-react-app
     
-    # Author 
+    #Author 
     Bryan Guilas
     
 **bgm6**
