@@ -1,6 +1,9 @@
 # Video-Search-App
 
-# This is a video search app that makes use of the youtTube API
+# 
+In this project I ultized the YouTube Api to create my own video search application.
+This was a great way for me to learn how class base componenets work in React and also get familiared with 
+ultizing state and the prop system. 
     
 
 URL: https://festive-davinci-0011c3.netlify.app/
