@@ -5,7 +5,9 @@ This was a great way for me to learn how state, props and class components work 
 # Possible Features to implement in the future
 
 #Authenication
+
 #Create a backend using MongoDB
+
 #Give the users the ability to create an account and be able to save  their favorite videos 
 
 
