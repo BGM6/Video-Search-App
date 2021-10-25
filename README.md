@@ -23,7 +23,7 @@ Give user the ability to create an account and be able to save, delete, update  
     FontAwesome
 
 ![alt text](screenShot/screenShot.JPG "HTML Screenshot")
-#Author
+# Author
 Bryan Guilas
 
 Email: bryanJguilas@gmail.com
